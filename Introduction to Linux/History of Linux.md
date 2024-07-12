@@ -29,13 +29,13 @@ Debian is an operating system composed only of free, open-source software¹. The
 From its inception as a personal project to its current status as a global phenomenon, Linux has revolutionized the world of operating systems. Its various distributions, each with their unique features and strengths, continue to power devices around the world, making Linux a cornerstone of modern computing.
 
 Source: Conversation with Copilot, 7/8/2024
-[(1) History of Linux - Wikipedia.](https://en.wikipedia.org/wiki/History_of_Linux.)
-(2) History of Linux - GeeksforGeeks. https://www.geeksforgeeks.org/linux-history/.
-(3) 10 of the Most Popular Linux Distributions Compared - How-To Geek. https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/.
-(4) 10 Top Most Popular Linux Distributions in 2023 - Tecmint. https://www.tecmint.com/top-most-popular-linux-distributions/.
-(5) The 3 Key Types of Linux Distributions You Should Know About - MUO. https://www.makeuseof.com/key-types-of-linux-distributions/.
-(6) 8 Most Popular Linux Distributions - GeeksforGeeks. https://www.geeksforgeeks.org/8-most-popular-linux-distributions/.
-(7) Linux distribution - Wikipedia. https://en.wikipedia.org/wiki/Linux_distribution.
-(8) Linux | Definition & Facts | Britannica. https://www.britannica.com/technology/Linux.
-(9) Linux History: a Look Back at 3 Decades of Linux (Infographic). https://linuxstans.com/linux-history/.
-(10) The History and Evolution of Linux. https://linuxhall.org/the-history-and-evolution-of-linux/.
+- [(1) History of Linux - Wikipedia.](https://en.wikipedia.org/wiki/History_of_Linux.)
+- [(2) History of Linux - GeeksforGeeks.](https://www.geeksforgeeks.org/linux-history/.)
+- [(3) 10 of the Most Popular Linux Distributions Compared - How-To Geek.](https://www.howtogeek.com/191207/)
+- [(4) 10 Top Most Popular Linux Distributions in 2023 - Tecmint.](https://www.tecmint.com/top-most-popular-linux-distributions/.)
+- [(5) The 3 Key Types of Linux Distributions You Should Know About - MUO.](https://www.makeuseof.com/key-types-of-linux-distributions/.)
+- [(6) 8 Most Popular Linux Distributions - GeeksforGeeks.](https://www.geeksforgeeks.org/8-most-popular-linux-distributions/.)
+- [(7) Linux distribution - Wikipedia.](https://en.wikipedia.org/wiki/Linux_distribution.)
+- [(8) Linux Definition Facts Britannica.] (https://www.britannica.com/technology/Linux)
+- [(9) Linux History: a Look Back at 3 Decades of Linux (Infographic).](https://linuxstans.com/linux-history/.)
+- [(10) The History and Evolution of Linux.](https://linuxhall.org/the-history-and-evolution-of-linux/.)
