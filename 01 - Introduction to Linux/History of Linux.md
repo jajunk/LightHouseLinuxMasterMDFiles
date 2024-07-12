@@ -36,6 +36,6 @@ Source: Conversation with Copilot, 7/8/2024
 - [(5) The 3 Key Types of Linux Distributions You Should Know About - MUO.](https://www.makeuseof.com/key-types-of-linux-distributions/.)
 - [(6) 8 Most Popular Linux Distributions - GeeksforGeeks.](https://www.geeksforgeeks.org/8-most-popular-linux-distributions/.)
 - [(7) Linux distribution - Wikipedia.](https://en.wikipedia.org/wiki/Linux_distribution.)
-- [(8) Linux Definition Facts Britannica.] (https://www.britannica.com/technology/Linux)
+- [(8) Linux Definition Facts Britannica.](https://www.britannica.com/technology/Linux)
 - [(9) Linux History: a Look Back at 3 Decades of Linux (Infographic).](https://linuxstans.com/linux-history/.)
 - [(10) The History and Evolution of Linux.](https://linuxhall.org/the-history-and-evolution-of-linux/.)
