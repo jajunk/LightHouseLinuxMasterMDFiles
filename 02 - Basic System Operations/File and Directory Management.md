@@ -1,5 +1,4 @@
 ##
-Certainly! Managing files and directories in Linux Mint is essential for effective system administration. Let's explore some fundamental commands:
 
 1. **List Files (ls):** The `ls` command lists files in the current directory. By default, it displays files in the current folder. For example:
     ```bash
@@ -38,7 +37,6 @@ Certainly! Managing files and directories in Linux Mint is essential for effecti
 
 Remember, mastering these commands will empower you in managing your Linux Mint system! 🚀🐧 ¹²³
 
-Source: Conversation with Copilot, 7/12/2024
 - [(1) How to Perform File and Directory Management (Part 3) - Tecmint.](https://www.tecmint.com/file-and-directory-management-in-linux/.)
 - [(2) How to Manage Files from the Linux Terminal: 11 Commands ... - How-To Geek.](https://www.howtogeek.com/107808/how-to-manage-files-from-the-linux-terminal-11-commands-you-need-to-know/.)
 - [(3) Linux File Management Series for Beginners - Linux Shell Tips.](https://www.ubuntumint.com/linux-file-management/.)

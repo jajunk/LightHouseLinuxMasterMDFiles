@@ -1,40 +1,65 @@
-# Basic Linux Commands
+## Basic Linux commands that are essential for using Linux Mint:
 
-## List Files and Directories: 
-Use the `ls` command to display the contents of a directory.
-    Print Working Directory: The pwd command shows the current working directory’s path.
-    Change Directory: To navigate between directories, use cd.
-    Create a New Directory: The mkdir command lets you create a new directory.
-    Remove a Directory: Use rmdir to delete an empty directory.
-    Copy Files and Directories: The cp command copies files and directories.
-    Move or Rename Files: With mv, you can move or rename files and directories.
-    Remove Files: The rm command deletes files.
-    Check File Type: Use file to determine a file’s type.
-    Create an Empty File: touch creates a new empty file.
-    ZIP and UnZIP: Create and extract ZIP archives with zip and unzip.
-    Archive Files in TAR Format: tar archives files without compression.
-    Edit Files with Text Editors: Use nano, vi, or jed to edit files.
-    Combine and Display File Content: cat lists, combines, and writes file content.
-    Search Within Files: grep searches for a string within a file.
-    Find and Replace Patterns: sed finds, replaces, or deletes patterns in a file.
-    Display First and Last Lines of a File: head and tail show the first and last lines, respectively.
-    Manipulate Patterns with AWK: awk finds and manipulates patterns in a file.
-    Reorder File Content: sort arranges lines in a file.
-    Print Specific Sections of a File: cut extracts lines from a file.
-    Compare File Content: diff compares two files and highlights differences.
-    Print Command Outputs to a File: tee sends output to both Terminal and a file.
-    Locate Files: locate finds files in the system’s database.
-    Display Disk Space Usage: df shows overall disk space usage.
-    Check Storage Consumption: du examines file or directory storage.
-    Monitor Running Processes: top displays active processes and resource usage.
-    Interactive Process Viewer: htop is similar to top but with a user-friendly interface.
-    Snapshot of Running Processes: ps captures all running processes.
-    System Information: uname provides details about your machine’s kernel, name, and hardware.
-    Show Hostname: hostname reveals your system’s hostname.
-    Calculate Command Execution Time: time measures execution time.
+1. **`ls`**: Lists files and directories in the current directory.
+   ```bash
+   ls
+   ```
 
-Remember, these commands are just the tip of the iceberg! Feel free to explore more as you dive into the world of Linux. If you need further assistance, don’t hesitate to ask! 😊
+2. **`cd`**: Changes the current directory.
+   ```bash
+   cd /path/to/directory
+   ```
 
-For a comprehensive list and additional tips, you can also check out this Linux Commands Cheat Sheet or refer to Hostinger’s tutorial.123 🐧🚀
+3. **`pwd`**: Prints the current working directory.
+   ```bash
+   pwd
+   ```
 
- 
+4. **`mkdir`**: Creates a new directory.
+   ```bash
+   mkdir new_directory
+   ```
+
+5. **`rmdir`**: Removes an empty directory.
+   ```bash
+   rmdir directory_name
+   ```
+
+6. **`cp`**: Copies files or directories.
+   ```bash
+   cp source_file destination
+   ```
+
+7. **`mv`**: Moves or renames files or directories.
+   ```bash
+   mv old_name new_name
+   ```
+
+8. **`rm`**: Removes files or directories.
+   ```bash
+   rm file_name
+   ```
+
+9. **`touch`**: Creates an empty file or updates the timestamp of an existing file.
+   ```bash
+   touch file_name
+   ```
+
+10. **`man`**: Displays the manual page for a command.
+    ```bash
+    man command_name
+    ```
+
+For more detailed guides and examples, you can refer to these resources:
+
+1. **The Beginner’s Guide to Using Terminal on Linux Mint** on FOSS Linux¹.
+2. **Official User Guide** on Linux Mint's website².
+3. **Beginner's Guide for Linux** on Tecmint³.
+
+These resources should help you get comfortable with using the terminal in Linux Mint. If you have any specific commands or tasks you'd like to know more about, feel free to ask!
+
+Source: Conversation with Copilot, 7/20/2024
+- [(1) The beginner’s guide to using terminal on Linux Mint - FOSS Linux.](https://www.fosslinux.com/103546/the-beginners-guide-to-using-terminal-on-linux-mint.htm.)
+- [(2) Official User Guide - Linux Mint.](https://www.linuxmint.com/documentation/user-guide/Cinnamon/english_18.0.pdf.)
+- [(3) BEGINNER'S GUIDE FOR LINUX - Start Learning Linux in Minutes - Tecmint.](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/.)
+- [(4) Useful Basic Terminal Commands On Linux Mint 11 - HowtoForge.](https://www.howtoforge.com/useful-basic-terminal-commands-on-linux-mint-11.)

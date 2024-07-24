@@ -1,7 +1,5 @@
 ## How to shutdown and restart in terminal
 
-Certainly! When working with Linux Mint (or any Linux distribution), you can use the following commands in the terminal to **shutdown** or **restart** your system:
-
 1. To **shutdown** the system immediately:
     ```bash
     sudo shutdown -h now
@@ -13,14 +11,13 @@ Certainly! When working with Linux Mint (or any Linux distribution), you can use
     ```
 
 3. If you want to schedule a shutdown or restart after a specific time (e.g., 10 minutes from now), you can use:
-    ```bash
+    ```bash 
     sudo shutdown -h +10
     sudo shutdown -r +10
     ```
 
 Remember, you need to be in the `sudo` group (with superuser permissions) to execute these commands. If a command is refused, retry it with `sudo`. Happy system management! 🚀🐧 ¹²³
 
-Source: Conversation with Copilot, 7/12/2024
 - [(1) How to Reboot or Shut Down Linux Using the Command Line.)](https://www.howtogeek.com/411925/how-to-reboot-or-shut-down-linux-using-the-command-line/.)
 - [(2) How to reboot, shutdown, log off PC from Terminal by command line in](https://www.fosslinux.com/1115/how-to-reboot-shutdown-log-off-pc-from-terminal-by-command-line-in-ubuntu-and-linux-mint.htm.)
 - [(3) How do I shut down or reboot from a terminal? - Ask Ubuntu.](https://askubuntu.com/questions/187071/how-do-i-shut-down-or-reboot-from-a-terminal.)
