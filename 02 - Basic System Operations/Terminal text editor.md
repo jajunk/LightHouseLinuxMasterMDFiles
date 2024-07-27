@@ -1,4 +1,4 @@
-## 
+#
 
 1. **Opening and Creating Files**:
    - To open an existing file or create a new one, type:
@@ -17,7 +17,6 @@
    - To move to the next match, press `Alt+w`.
    - For search and replace, press `Ctrl+\`. Enter the search term and the replacement text.
 
-Remember, Nano is a great choice for simple editing tasks. If you need more advanced features, explore other editors like Vim or Emacs. Happy editing! 😊 
 
 
 - [(1) Editing Files With Nano in Linux [With Cheat Sheet] - It's FOSS.](https://itsfoss.com/nano-editor-guide/.)

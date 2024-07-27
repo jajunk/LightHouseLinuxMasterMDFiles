@@ -1,4 +1,4 @@
-## Certainly! Let's explore the Linux command line interface (CLI) or **terminal**.
+# Certainly! Let's explore the Linux command line interface (CLI) or **terminal**.
 
 1. **What Is the Terminal?**:
    - The terminal is a **text-based interface** that allows you to interact with your computer using commands.

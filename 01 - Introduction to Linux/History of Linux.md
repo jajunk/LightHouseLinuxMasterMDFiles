@@ -1,4 +1,4 @@
-## Linux has a fascinating history that dates back to the early 1990s.
+# Linux has a fascinating history that dates back to the early 1990s.
 
 1. **Origins**: Linux began as a personal project by Linus Torvalds, a Finnish student, in 1991. He aimed to create a free operating system kernel¹².
 2. **Unix Influence**: The development of Linux was heavily influenced by Unix, an operating system created by Ken Thompson and Dennis Ritchie at AT&T Bell Labs in 1969¹².

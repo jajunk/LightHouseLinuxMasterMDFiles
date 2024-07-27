@@ -1,4 +1,4 @@
-## 
+# 
 
 1. **Opening the Terminal**:
    - You can open the terminal in various ways:

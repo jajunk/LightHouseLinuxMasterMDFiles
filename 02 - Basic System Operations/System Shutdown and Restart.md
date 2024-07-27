@@ -1,4 +1,4 @@
-## How to shutdown and restart in terminal
+# How to shutdown and restart in terminal
 
 1. To **shutdown** the system immediately:
     ```bash
@@ -16,7 +16,7 @@
     sudo shutdown -r +10
     ```
 
-Remember, you need to be in the `sudo` group (with superuser permissions) to execute these commands. If a command is refused, retry it with `sudo`. Happy system management! 🚀🐧 ¹²³
+
 
 - [(1) How to Reboot or Shut Down Linux Using the Command Line.)](https://www.howtogeek.com/411925/how-to-reboot-or-shut-down-linux-using-the-command-line/.)
 - [(2) How to reboot, shutdown, log off PC from Terminal by command line in](https://www.fosslinux.com/1115/how-to-reboot-shutdown-log-off-pc-from-terminal-by-command-line-in-ubuntu-and-linux-mint.htm.)

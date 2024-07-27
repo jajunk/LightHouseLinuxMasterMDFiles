@@ -1,4 +1,4 @@
-## Basic Linux commands that are essential for using Linux Mint:
+# Basic Linux commands that are essential for using Linux Mint:
 
 1. **`ls`**: Lists files and directories in the current directory.
    ```bash
@@ -56,7 +56,6 @@ For more detailed guides and examples, you can refer to these resources:
 2. **Official User Guide** on Linux Mint's website².
 3. **Beginner's Guide for Linux** on Tecmint³.
 
-These resources should help you get comfortable with using the terminal in Linux Mint. If you have any specific commands or tasks you'd like to know more about, feel free to ask!
 
 Source: Conversation with Copilot, 7/20/2024
 - [(1) The beginner’s guide to using terminal on Linux Mint - FOSS Linux.](https://www.fosslinux.com/103546/the-beginners-guide-to-using-terminal-on-linux-mint.htm.)
