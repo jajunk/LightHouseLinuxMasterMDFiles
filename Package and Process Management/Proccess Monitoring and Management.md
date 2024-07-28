@@ -1,10 +1,10 @@
-Process Monitoring and Management in Linux
+# Process Monitoring and Management in Linux
 
-1. Viewing Running Processes
+### 1. Viewing Running Processes
 
 Let's start with the basic commands to view running processes:
 
-a) ps - Process Status
+- ps - Process Status
 The 'ps' command provides a snapshot of current processes.
 
 Basic usage:
@@ -17,7 +17,7 @@ Common options:
 - `ps -ef`: Similar to aux, but in a different format
 - `ps lax`: Provides more detailed information
 
-b) top - Table of Processes
+- top - Table of Processes
 'top' provides a real-time, dynamic view of running processes.
 
 Basic usage:
@@ -30,7 +30,7 @@ In top, you can use:
 - 'k' to kill a process (you'll be prompted for the PID)
 - 'r' to renice (change priority) of a process
 
-c) htop - Interactive Process Viewer
+- htop - Interactive Process Viewer
 'htop' is an improved version of 'top' with a more user-friendly interface.
 
 Install it (if not already installed):
@@ -44,9 +44,9 @@ Run it:
 htop
 ```
 
-2. Process Management
+### 2. Process Management
 
-a) kill - Terminate a Process
+- kill - Terminate a Process
 The 'kill' command sends a signal to a process, by default the TERM signal.
 
 Basic usage:
@@ -63,7 +63,7 @@ Example:
 kill -9 1234
 ```
 
-b) killall - Kill Processes by Name
+- killall - Kill Processes by Name
 'killall' allows you to kill all processes with a given name.
 
 Example:
@@ -71,7 +71,7 @@ Example:
 killall firefox
 ```
 
-c) pkill - Kill Processes Based on Name and Other Attributes
+- pkill - Kill Processes Based on Name and Other Attributes
 'pkill' is more flexible than killall, allowing you to kill processes based on various attributes.
 
 Example:
@@ -79,7 +79,7 @@ Example:
 pkill -u username firefox
 ```
 
-d) nice and renice - Adjust Process Priority
+- nice and renice - Adjust Process Priority
 'nice' starts a process with a specified priority, while 'renice' changes the priority of a running process.
 
 Nice values range from -20 (highest priority) to 19 (lowest priority).
@@ -90,29 +90,29 @@ nice -n 10 command  # Start 'command' with lower priority
 renice -n 5 -p PID  # Change priority of running process
 ```
 
-3. Background and Foreground Processes
+### 3. Background and Foreground Processes
 
-a) Start a process in the background:
+- Start a process in the background:
 ```
 command &
 ```
 
-b) Move a running process to the background:
-Press Ctrl+Z, then type 'bg'
+- Move a running process to the background:
+Press Ctrl+Z
 
-c) Bring a background process to the foreground:
+- Bring a background process to the foreground:
 ```
 fg %job_number
 ```
 
-d) List background jobs:
+- List background jobs:
 ```
 jobs
 ```
 
-4. Advanced Monitoring Tools
+### 4. Advanced Monitoring Tools
 
-a) iotop - I/O Monitoring
+- iotop - I/O Monitoring
 'iotop' shows I/O usage by processes.
 
 Install:
@@ -126,7 +126,7 @@ Run:
 sudo iotop
 ```
 
-b) nethogs - Network Monitoring
+- nethogs - Network Monitoring
 'nethogs' shows network usage by process.
 
 Install:
@@ -140,7 +140,7 @@ Run:
 sudo nethogs
 ```
 
-c) lsof - List Open Files
+- lsof - List Open Files
 'lsof' lists open files and the processes using them.
 
 Example (list all network connections):
@@ -148,26 +148,26 @@ Example (list all network connections):
 sudo lsof -i
 ```
 
-5. System Monitoring
+### 5. System Monitoring
 
-a) free - Display Amount of Free and Used Memory
+- free - Display Amount of Free and Used Memory
 ```
 free -h  # -h for human-readable format
 ```
 
-b) vmstat - Report Virtual Memory Statistics
+- vmstat - Report Virtual Memory Statistics
 ```
 vmstat 1  # Report every second
 ```
 
-c) iostat - Report CPU Statistics and I/O Statistics
+- iostat - Report CPU Statistics and I/O Statistics
 ```
 iostat 1  # Report every second
 ```
 
-6. Process Tracking and Analysis
+### 6. Process Tracking and Analysis
 
-a) strace - Trace System Calls and Signals
+- strace - Trace System Calls and Signals
 'strace' is useful for diagnosing problems with processes.
 
 Example:
@@ -175,7 +175,7 @@ Example:
 strace command
 ```
 
-b) ltrace - Library Call Tracer
+- ltrace - Library Call Tracer
 'ltrace' is similar to strace but for library calls.
 
 Example:
@@ -183,7 +183,7 @@ Example:
 ltrace command
 ```
 
-7. Continuous Monitoring with watch
+### 7. Continuous Monitoring with watch
 
 The 'watch' command allows you to run any command periodically, showing output in fullscreen.
 

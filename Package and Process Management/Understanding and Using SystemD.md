@@ -1,3 +1,5 @@
+# Understanding and Using SystemD
+
 1. Introduction to systemd
 2. Core Concepts
 3. Unit Files
@@ -10,11 +12,11 @@
 
 Let's begin:
 
-1. Introduction to systemd
+### 1. Introduction to systemd
 
 systemd is an init system and system manager that has become the standard for many Linux distributions. It was designed to overcome limitations in the traditional SysV init system, providing faster boot times, dependency-based service control, and a unified interface for managing system services.
 
-2. Core Concepts
+### 2. Core Concepts
 
 - Units: The basic building blocks of systemd. Units can represent services, devices, mount points, and more.
 - Dependencies: systemd manages relationships between units, ensuring they start in the correct order.
@@ -22,7 +24,7 @@ systemd is an init system and system manager that has become the standard for ma
 - Sockets: Allow for service activation on demand.
 - Timers: Provide cron-like functionality for scheduling tasks.
 
-3. Unit Files
+### 3. Unit Files
 
 Unit files are configuration files that define how systemd should manage a unit. They are typically located in /etc/systemd/system/ or /usr/lib/systemd/system/.
 
@@ -41,7 +43,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-4. Basic systemd Commands
+### 4. Basic systemd Commands
 
 - systemctl: The main command for interacting with systemd
 - journalctl: Used for viewing logs
@@ -57,7 +59,7 @@ systemctl enable service-name
 systemctl disable service-name
 ```
 
-5. Managing Services
+### 5. Managing Services
 
 To create a new service:
 1. Create a unit file in /etc/systemd/system/ (e.g., myservice.service)
@@ -65,7 +67,7 @@ To create a new service:
 3. Reload the systemd manager: `systemctl daemon-reload`
 4. Start and enable the service: `systemctl start myservice && systemctl enable myservice`
 
-6. System Boot and Target Units
+### 6. System Boot and Target Units
 
 systemd uses target units to manage the boot process. Key targets include:
 - poweroff.target
@@ -78,7 +80,7 @@ To change the default target:
 systemctl set-default graphical.target
 ```
 
-7. Logging with journald
+### 7. Logging with journald
 
 journald is systemd's logging system. Key features:
 - Collects messages from the kernel, services, and applications
@@ -92,7 +94,7 @@ journalctl -f  # Follow new log entries
 journalctl --since "1 hour ago"  # View recent logs
 ```
 
-8. Advanced Features
+### 8. Advanced Features
 
 - Socket Activation: Services start on-demand when a client connects to their socket.
 - Resource Control: Limit CPU, memory, and other resources for services.
@@ -106,7 +108,7 @@ CPUQuota=20%
 MemoryLimit=100M
 ```
 
-9. Troubleshooting
+### 9. Troubleshooting
 
 - Check service status: `systemctl status service-name`
 - View recent logs: `journalctl -u service-name -n 50 --no-pager`

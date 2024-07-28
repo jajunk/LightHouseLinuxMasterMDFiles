@@ -1,4 +1,6 @@
-1. Introduction to Bash and the command line
+#Basic Shell (Bash)
+
+###1. Introduction to Bash and the command line
 
 Bash (Bourne Again SHell) is a command-line interface and scripting language used in Unix-like operating systems, including Linux. It's an improved version of the original Bourne Shell (sh).
 
@@ -35,7 +37,7 @@ Some essential commands to get started:
 - `man`: Displays the manual page for a command
   Example: `man ls` (Use 'q' to exit)
 
-2. Basic navigation and file management
+### 2. Basic navigation and file management
 
 Linux file system hierarchy:
 The file system in Linux is organized in a tree-like structure, starting from the root directory (/).
@@ -50,12 +52,15 @@ Key directories:
 
 Navigation commands:
 - `pwd`: Print Working Directory
-  Example: `pwd`
+  Example: ```bash
+  pwd
+  ```
 
 - `cd`: Change Directory
   Examples:
   ```bash
   cd /home/user
+  ```
   cd ..  # Move up one directory
   cd ~   # Move to home directory
   cd -   # Move to previous directory
