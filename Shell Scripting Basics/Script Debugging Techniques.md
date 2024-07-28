@@ -1,14 +1,16 @@
-1. Enable debugging mode
+# Script Debugging Techniques
+
+## 1. Enable debugging mode
 
 The first step in debugging a bash script is to enable debugging mode. You can do this in two ways:
 
-a) Add the -x option when running the script:
+- Add the -x option when running the script:
 
 ```bash
 bash -x your_script.sh
 ```
 
-b) Add the set -x command at the beginning of your script:
+- Add the set -x command at the beginning of your script:
 
 ```bash
 #!/bin/bash
@@ -19,7 +21,7 @@ set -x
 
 The -x option enables trace debugging, which prints each command and its arguments as they are executed.
 
-2. Use set options for additional debugging
+## 2. Use set options for additional debugging
 
 Bash provides several set options that can help with debugging:
 
@@ -37,7 +39,7 @@ set -x
 # Rest of your script
 ```
 
-3. Add echo statements
+## 3. Add echo statements
 
 Insert echo statements throughout your script to print variable values or to indicate which part of the script is being executed:
 
@@ -46,7 +48,7 @@ echo "Debug: Variable value is $variable"
 echo "Debug: Entering function foo"
 ```
 
-4. Use bash's built-in debugging commands
+## 4. Use bash's built-in debugging commands
 
 Bash provides several built-in commands for debugging:
 
@@ -59,7 +61,7 @@ Example of using trap:
 trap 'echo "Line $LINENO: Command \\"$BASH_COMMAND\\" exited with status $?"' ERR
 ```
 
-5. Use a debugger
+## 5. Use a debugger
 
 For more complex scripts, you might want to use a debugger. Bashdb is a popular bash script debugger. Here's how to use it:
 
@@ -77,7 +79,7 @@ bashdb your_script.sh
 
 This will start an interactive debugging session where you can set breakpoints, step through the code, and inspect variables.
 
-6. Check for syntax errors
+## 6. Check for syntax errors
 
 Before diving into debugging, check for syntax errors:
 
@@ -87,7 +89,7 @@ bash -n your_script.sh
 
 This will check for syntax errors without executing the script.
 
-7. Use shellcheck
+## 7. Use shellcheck
 
 Shellcheck is a static analysis tool for shell scripts. It can catch common errors and suggest improvements:
 
@@ -103,7 +105,7 @@ b) Run shellcheck on your script:
 shellcheck your_script.sh
 ```
 
-8. Debug specific sections
+## 8. Debug specific sections
 
 If you only want to debug a specific section of your script, you can use set -x and set +x to turn debugging on and off:
 
@@ -122,7 +124,7 @@ set +x
 echo "Back to normal execution"
 ```
 
-9. Use PS4 for more informative debug output
+## 9. Use PS4 for more informative debug output
 
 You can customize the prefix used for debug output using the PS4 variable:
 
@@ -135,7 +137,7 @@ set -x
 
 This will prefix each debug line with the source file, line number, and function name.
 
-10. Check exit status
+## 10. Check exit status
 
 After each important command, check its exit status:
 
@@ -147,7 +149,7 @@ if [ $? -ne 0 ]; then
 fi
 ```
 
-11. Use bash's DEBUG trap
+## 11. Use bash's DEBUG trap
 
 You can use the DEBUG trap to execute a command before each command in your script:
 
