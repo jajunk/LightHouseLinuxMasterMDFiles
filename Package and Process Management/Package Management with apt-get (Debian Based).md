@@ -28,7 +28,7 @@ For a more aggressive upgrade that might remove obsolete packages:
 sudo apt-get dist-upgrade
 ```
 
-4. Installing Packages
+### 4. Installing Packages
 
 To install a new package:
 
@@ -42,7 +42,7 @@ You can install multiple packages at once:
 sudo apt-get install package1 package2 package3
 ```
 
-5. Removing Packages
+### 5. Removing Packages
 
 To remove a package:
 
@@ -56,7 +56,7 @@ To remove the package along with its configuration files:
 sudo apt-get purge package_name
 ```
 
-6. Searching for Packages
+### 6. Searching for Packages
 
 To search for a package:
 
@@ -64,7 +64,7 @@ To search for a package:
 apt-cache search keyword
 ```
 
-7. Displaying Package Information
+### 7. Displaying Package Information
 
 To show detailed information about a package:
 
@@ -72,7 +72,7 @@ To show detailed information about a package:
 apt-cache show package_name
 ```
 
-8. Cleaning Up
+### 8. Cleaning Up
 
 To remove unnecessary packages:
 
@@ -86,15 +86,15 @@ To clear out the local repository of retrieved package files:
 sudo apt-get clean
 ```
 
-9. Handling Dependencies
+### 9. Handling Dependencies
 
 apt-get automatically handles dependencies. When you install a package, it will also install any required dependencies.
 
-10. Working with Package Sources
+### 10. Working with Package Sources
 
 Package sources are defined in `/etc/apt/sources.list` and in files under `/etc/apt/sources.list.d/`. You may need to edit these to add or remove repositories.
 
-11. Holding Packages
+### 11. Holding Packages
 
 To prevent a package from being automatically upgraded:
 
@@ -108,7 +108,7 @@ To remove the hold:
 sudo apt-mark unhold package_name
 ```
 
-12. Simulating Operations
+### 12. Simulating Operations
 
 You can simulate operations without actually performing them using the `-s` flag:
 
@@ -118,7 +118,7 @@ sudo apt-get -s install package_name
 
 This is useful for seeing what would happen without making any changes.
 
-13. Troubleshooting
+### 13. Troubleshooting
 
 If you encounter issues, you can try:
 
