@@ -1,10 +1,10 @@
-Functions in Bash: A Comprehensive Guide
+# Functions in Bash: A Comprehensive Guide
 
-1. Introduction to Bash Functions
+## 1. Introduction to Bash Functions
 
 Bash functions are reusable pieces of code that perform a specific task. They help in organizing code, improving readability, and reducing repetition. Functions in Bash are similar to functions in other programming languages but with some unique characteristics.
 
-2. Basic Syntax
+## 2. Basic Syntax
 
 The basic syntax for defining a function in Bash is:
 
@@ -24,7 +24,7 @@ function function_name {
 }
 ```
 
-3. Calling Functions
+## 3. Calling Functions
 
 To call a function, simply use its name:
 
@@ -32,7 +32,7 @@ To call a function, simply use its name:
 function_name
 ```
 
-4. Function Parameters
+## 4. Function Parameters
 
 Bash functions can accept parameters, which are accessed using special variables:
 
@@ -51,7 +51,7 @@ greet() {
 greet "Alice"  # Output: Hello, Alice! Nice to meet you.
 ```
 
-5. Return Values
+## 5. Return Values
 
 Bash functions don't return values in the traditional sense. Instead, they use exit status:
 
@@ -71,7 +71,7 @@ is_even 5
 echo $?  # Output: 1 (failure)
 ```
 
-6. Capturing Function Output
+## 6. Capturing Function Output
 
 To capture a function's output, use command substitution:
 
@@ -84,7 +84,7 @@ today=$(get_date)
 echo "Today is $today"
 ```
 
-7. Local Variables
+## 7. Local Variables
 
 Use the `local` keyword to declare variables that are only accessible within the function:
 
@@ -98,7 +98,7 @@ my_function  # Output: Hello, local variable!
 echo $my_var  # Output: (empty, as my_var is not accessible here)
 ```
 
-8. Function Scope
+## 8. Function Scope
 
 Functions in Bash have access to global variables, but it's generally better to pass values as parameters:
 
@@ -116,7 +116,7 @@ echo "Outside function: $global_var"
 echo "Trying to access local_var: $local_var"  # This will be empty
 ```
 
-9. Function Libraries
+## 9. Function Libraries
 
 You can create function libraries by putting related functions in a separate file and sourcing it:
 
@@ -137,7 +137,7 @@ greet "Alice"
 farewell "Bob"
 ```
 
-10. Advanced Techniques
+## 10. Advanced Techniques
 
 a. Default Parameters:
 ```bash
@@ -177,7 +177,7 @@ factorial() {
 factorial 5  # Output: 120
 ```
 
-11. Best Practices
+## 11. Best Practices
 
 - Use descriptive function names
 - Comment your functions, especially for complex operations
@@ -186,7 +186,7 @@ factorial 5  # Output: 120
 - Pass data to functions as parameters rather than relying on global variables
 - Use `set -e` at the beginning of your script to exit on any error, including within functions
 
-12. Debugging Functions
+## 12. Debugging Functions
 
 Use the `set -x` command to enable debugging mode, which prints each command before executing it:
 
@@ -201,6 +201,6 @@ my_function
 set +x  # Disable debugging
 ```
 
-Conclusion
+## Conclusion
 
 Bash functions are powerful tools for creating modular, reusable code. They can significantly improve the organization and maintainability of your shell scripts. By mastering functions, you'll be able to write more efficient and elegant Bash scripts.

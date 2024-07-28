@@ -1,5 +1,4 @@
-Loops in Bash
-=============
+# Loops in Bash
 
 Loops are fundamental constructs in programming that allow you to execute a set of commands repeatedly. In Bash scripting, loops are essential for automating repetitive tasks, processing multiple files, and working with data structures. This tutorial will cover the three main types of loops in Bash: for loops, while loops, and until loops.
 
@@ -10,8 +9,7 @@ Table of Contents:
 4. Loop Control Statements
 5. Advanced Loop Techniques
 
-1. For Loops
-------------
+## 1. For Loops
 
 The 'for' loop is used to iterate over a list of items or a range of values.
 
@@ -58,8 +56,7 @@ do
 done
 ```
 
-2. While Loops
---------------
+## 2. While Loops
 
 The 'while' loop executes a set of commands as long as a given condition is true.
 
@@ -95,8 +92,7 @@ do
 done
 ```
 
-3. Until Loops
---------------
+## 3. Until Loops
 
 The 'until' loop is similar to the while loop, but it executes commands until a condition becomes true.
 
@@ -119,8 +115,7 @@ do
 done
 ```
 
-4. Loop Control Statements
---------------------------
+## 4. Loop Control Statements
 
 Bash provides two main loop control statements:
 
@@ -141,8 +136,7 @@ do
 done
 ```
 
-5. Advanced Loop Techniques
----------------------------
+## 5. Advanced Loop Techniques
 
 a) Nested loops:
 ```bash
@@ -194,5 +188,3 @@ done
 wait
 echo "All jobs completed"
 ```
-
-This tutorial covers the basics and some advanced techniques for using loops in Bash. Practice these concepts to become proficient in writing efficient and powerful Bash scripts.

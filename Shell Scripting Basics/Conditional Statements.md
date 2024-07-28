@@ -1,10 +1,8 @@
-Conditional Statements in Bash
-===============================
+# Conditional Statements in Bash
 
 Conditional statements in Bash allow you to control the flow of your script based on certain conditions. They enable your script to make decisions and execute different code blocks depending on whether specific conditions are true or false.
 
-1. if statement
----------------
+## 1. if statement
 
 The most basic conditional statement is the 'if' statement. Its syntax is:
 
@@ -26,8 +24,7 @@ if [ $age -ge 18 ]; then
 fi
 ```
 
-2. if-else statement
---------------------
+## 2. if-else statement
 
 The if-else statement allows you to specify actions for both when the condition is true and when it's false:
 
@@ -53,8 +50,7 @@ else
 fi
 ```
 
-3. if-elif-else statement
--------------------------
+## 3. if-elif-else statement
 
 For multiple conditions, use the if-elif-else structure:
 
@@ -90,8 +86,7 @@ else
 fi
 ```
 
-4. Comparison operators
------------------------
+## 4. Comparison operators
 
 Bash uses different operators for string and numeric comparisons:
 
@@ -130,8 +125,7 @@ if [ $str1 != $str2 ]; then
 fi
 ```
 
-5. Logical operators
---------------------
+## 5. Logical operators
 
 Bash supports logical AND and OR operations:
 
@@ -155,8 +149,7 @@ if [ $age -lt 18 ] || [ "$has_license" != true ]; then
 fi
 ```
 
-6. Case statement
------------------
+## 6. Case statement
 
 The case statement is useful when you have multiple conditions based on a single variable:
 
@@ -197,8 +190,7 @@ case $fruit in
 esac
 ```
 
-7. Test command
----------------
+## 7. Test command
 
 The test command is often used in conditional statements. It's equivalent to using square brackets []. You can use it like this:
 
@@ -216,8 +208,7 @@ if [ $a -eq $b ]; then
 fi
 ```
 
-8. Double square brackets
--------------------------
+## 8. Double square brackets
 
 Bash also supports double square brackets [[ ]] for conditional tests. These provide more features than single brackets, such as pattern matching:
 
@@ -239,7 +230,6 @@ if [[ $a -eq 5 && $b -gt 10 ]]; then
 fi
 ```
 
-Conclusion
-----------
+## Conclusion
 
 Conditional statements are crucial for creating dynamic and responsive Bash scripts. They allow your scripts to make decisions based on various conditions, making your scripts more versatile and powerful. Practice using these constructs to become proficient in Bash scripting.

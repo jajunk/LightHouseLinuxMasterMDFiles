@@ -1,16 +1,16 @@
-Introduction to Bash Scripting
+# Introduction to Bash Scripting
 
 Bash (Bourne Again SHell) is a command-line interface and scripting language used in Unix and Unix-like operating systems, including Linux and macOS. Bash scripts are text files containing a series of commands that can be executed by the Bash shell.
 
-1. Creating a Bash Script
+## 1. Creating a Bash Script
 
 To create a Bash script:
 
-1. Open a text editor
-2. Start the file with a shebang: #!/bin/bash
-3. Add your commands
-4. Save the file with a .sh extension (e.g., myscript.sh)
-5. Make the script executable: chmod +x myscript.sh
+- Open a text editor
+- Start the file with a shebang: #!/bin/bash
+- Add your commands
+- Save the file with a .sh extension (e.g., myscript.sh)
+- Make the script executable: chmod +x myscript.sh
 
 Here's a simple example:
 
@@ -19,7 +19,7 @@ Here's a simple example:
 echo "Hello, World!"
 ```
 
-2. Variables
+## 2. Variables
 
 Variables in Bash are created by assigning a value:
 
@@ -36,7 +36,7 @@ current_date=$(date +%Y-%m-%d)
 echo "Today is $current_date"
 ```
 
-3. User Input
+## 3. User Input
 
 Use `read` to get user input:
 
@@ -46,7 +46,7 @@ read user_name
 echo "Hello, $user_name!"
 ```
 
-4. Conditional Statements
+## 4. Conditional Statements
 
 If-else statements:
 
@@ -60,7 +60,7 @@ fi
 
 Note the spaces around the brackets and comparison operator.
 
-5. Loops
+## 5. Loops
 
 For loop:
 
@@ -82,7 +82,7 @@ do
 done
 ```
 
-6. Functions
+## 6. Functions
 
 Define and call functions:
 
@@ -95,7 +95,7 @@ greet "Alice"
 greet "Bob"
 ```
 
-7. Command-line Arguments
+## 7. Command-line Arguments
 
 Access command-line arguments using `$1`, `$2`, etc.:
 
@@ -106,7 +106,7 @@ echo "Second argument: $2"
 echo "All arguments: $@"
 ```
 
-8. File Operations
+## 8. File Operations
 
 Check if a file exists:
 
