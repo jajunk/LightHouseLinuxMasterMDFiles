@@ -2,13 +2,6 @@
 
 Loops are fundamental constructs in programming that allow you to execute a set of commands repeatedly. In Bash scripting, loops are essential for automating repetitive tasks, processing multiple files, and working with data structures. This tutorial will cover the three main types of loops in Bash: for loops, while loops, and until loops.
 
-Table of Contents:
-1. For Loops
-2. While Loops
-3. Until Loops
-4. Loop Control Statements
-5. Advanced Loop Techniques
-
 ## 1. For Loops
 
 The 'for' loop is used to iterate over a list of items or a range of values.
