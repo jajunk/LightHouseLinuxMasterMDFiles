@@ -16,7 +16,7 @@ done
 
 Examples:
 
-a) Iterating over a list of items:
+- Iterating over a list of items:
 ```bash
 for fruit in apple banana orange
 do
@@ -24,7 +24,7 @@ do
 done
 ```
 
-b) Iterating over a range of numbers:
+- Iterating over a range of numbers:
 ```bash
 for i in {1..5}
 do
@@ -32,7 +32,7 @@ do
 done
 ```
 
-c) C-style for loop:
+- C-style for loop:
 ```bash
 for ((i=0; i<5; i++))
 do
@@ -40,7 +40,7 @@ do
 done
 ```
 
-d) Iterating over files in a directory:
+- Iterating over files in a directory:
 ```bash
 for file in *.txt
 do
@@ -63,7 +63,7 @@ done
 
 Examples:
 
-a) Basic while loop:
+- Basic while loop:
 ```bash
 count=1
 while [ $count -le 5 ]
@@ -73,7 +73,7 @@ do
 done
 ```
 
-b) Reading input until a condition is met:
+- Reading input until a condition is met:
 ```bash
 while read -p "Enter a number (0 to exit): " num
 do
@@ -112,8 +112,8 @@ done
 
 Bash provides two main loop control statements:
 
-a) break: Exits the loop immediately
-b) continue: Skips the rest of the current iteration and moves to the next one
+- break: Exits the loop immediately
+- continue: Skips the rest of the current iteration and moves to the next one
 
 Example using both:
 ```bash
@@ -131,7 +131,7 @@ done
 
 ## 5. Advanced Loop Techniques
 
-a) Nested loops:
+- Nested loops:
 ```bash
 for i in {1..3}
 do
@@ -142,7 +142,7 @@ do
 done
 ```
 
-b) Looping through arrays:
+- Looping through arrays:
 ```bash
 declare -a fruits=("apple" "banana" "orange" "grape")
 for fruit in "${fruits[@]}"
@@ -151,7 +151,7 @@ do
 done
 ```
 
-c) Infinite loops (use with caution):
+- Infinite loops (use with caution):
 ```bash
 while true
 do
@@ -160,7 +160,7 @@ do
 done
 ```
 
-d) Looping with command substitution:
+- Looping with command substitution:
 ```bash
 for line in $(cat file.txt)
 do
@@ -168,7 +168,7 @@ do
 done
 ```
 
-e) Parallel execution of loops:
+- Parallel execution of loops:
 ```bash
 for job in job1 job2 job3
 do
