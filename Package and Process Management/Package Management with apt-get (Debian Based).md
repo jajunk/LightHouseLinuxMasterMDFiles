@@ -1,28 +1,28 @@
 # Package Management with apt-get (Debian-Based Systems)
 
-## 1. Introduction to apt-get
+### 1. Introduction to apt-get
 
-### apt-get is a command-line tool for handling packages in Debian-based Linux distributions. It's part of the APT (Advanced Package Tool) system, which manages software installation, upgrade, and removal.
+ apt-get is a command-line tool for handling packages in Debian-based Linux distributions. It's part of the APT (Advanced Package Tool) system, which manages software installation, upgrade, and removal.
 
-## 2. Updating Package Lists
+### 2. Updating Package Lists
 
-### Before installing or upgrading packages, it's important to update your local package lists:
+ Before installing or upgrading packages, it's important to update your local package lists:
 
 ```bash
 sudo apt-get update
 ```
 
-### This command synchronizes your package lists with the repositories.
+This command synchronizes your package lists with the repositories.
 
-## 3. Upgrading Installed Packages
+### 3. Upgrading Installed Packages
 
-### To upgrade all installed packages to their latest versions:
+To upgrade all installed packages to their latest versions:
 
 ```bash
 sudo apt-get upgrade
 ```
 
-### For a more aggressive upgrade that might remove obsolete packages:
+For a more aggressive upgrade that might remove obsolete packages:
 
 ```bash
 sudo apt-get dist-upgrade
