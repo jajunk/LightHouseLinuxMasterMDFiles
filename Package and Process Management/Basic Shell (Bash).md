@@ -1,6 +1,6 @@
-#Basic Shell (Bash)
+# Basic Shell (Bash)
 
-###1. Introduction to Bash and the command line
+### 1. Introduction to Bash and the command line
 
 Bash (Bourne Again SHell) is a command-line interface and scripting language used in Unix-like operating systems, including Linux. It's an improved version of the original Bourne Shell (sh).
 

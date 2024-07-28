@@ -1,17 +1,5 @@
 # Understanding and Using SystemD
 
-1. Introduction to systemd
-2. Core Concepts
-3. Unit Files
-4. Basic systemd Commands
-5. Managing Services
-6. System Boot and Target Units
-7. Logging with journald
-8. Advanced Features
-9. Troubleshooting
-
-Let's begin:
-
 ### 1. Introduction to systemd
 
 systemd is an init system and system manager that has become the standard for many Linux distributions. It was designed to overcome limitations in the traditional SysV init system, providing faster boot times, dependency-based service control, and a unified interface for managing system services.
