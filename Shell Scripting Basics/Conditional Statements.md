@@ -99,12 +99,12 @@ Numeric comparisons:
 - -ge: greater than or equal to
 
 String comparisons:
-- = : equal to
-- != : not equal to
-- < : less than (in ASCII alphabetical order)
-- > : greater than (in ASCII alphabetical order)
-- -z : string is null (zero length)
-- -n : string is not null
+- =: equal to
+- !=: not equal to
+- <: less than (in ASCII alphabetical order)
+- >: greater than (in ASCII alphabetical order)
+- -z: string is null (zero length)
+- -n: string is not null
 
 Example:
 
