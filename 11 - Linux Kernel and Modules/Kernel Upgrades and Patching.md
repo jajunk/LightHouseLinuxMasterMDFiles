@@ -70,6 +70,6 @@
 
 ## 10. Verify the new kernel:
     
-    ```bash
+    ```
     uname -r
     ```
