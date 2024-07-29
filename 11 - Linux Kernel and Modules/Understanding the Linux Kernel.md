@@ -147,8 +147,8 @@ For a deeper understanding, explore:
 
 To continue your journey in understanding the Linux kernel:
 
-1. Online documentation: The Linux Kernel documentation [kernel.org](kernel.org)
+1. Online documentation: The Linux Kernel documentation [kernel.org](https://kernel.org)
 2. Mailing lists: Linux Kernel Mailing List (LKML)
-3. Source code: Explore the kernel source on [git.kernel.org](git.kernel.org)
+3. Source code: Explore the kernel source on [git.kernel.org](https://git.kernel.org/)
 
 Understanding the Linux kernel is a vast and complex topic. This guide provides a high-level overview of the main components and concepts. To truly master the subject, hands-on experience with kernel development, debugging, and system administration is essential.
