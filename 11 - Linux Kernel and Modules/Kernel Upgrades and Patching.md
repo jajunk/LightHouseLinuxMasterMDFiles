@@ -69,7 +69,7 @@
 ## 9. Reboot and select the new kernel
 
 ## 10. Verify the new kernel:
-    
-    ```
-    uname -r
-    ```
+
+  ```bash
+  uname -r
+  ```
