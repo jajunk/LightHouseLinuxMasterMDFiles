@@ -4,13 +4,13 @@ Automated installation, also known as unattended installation or silent installa
 
 ## Key Components:
 
-- 1. Installation Scripts
-- 2. Answer Files
-- 3. Deployment Tools
-- 4. Package Managers
-- 5. Image-Based Deployment
+- I. Installation Scripts
+- II. Answer Files
+- III. Deployment Tools
+- IV. Package Managers
+- V. Image-Based Deployment
 
-## 1. Installation Scripts
+## I. Installation Scripts
 
 Installation scripts automate the process of installing software by executing a series of predefined commands. These scripts can be written in various languages such as Bash, PowerShell, or Python.
 
@@ -46,7 +46,7 @@ systemctl start software-service
 echo "Installation complete."
 ```
 
-## 2. Answer Files
+## II. Answer Files
 
 Answer files (also called response files or unattended installation files) contain predetermined responses to installation prompts. These files allow for consistent configurations across multiple installations.
 
@@ -103,7 +103,7 @@ Example (Windows answer file, autounattend.xml):
 </unattend>
 ```
 
-## 3. Deployment Tools
+## III. Deployment Tools
 
 Deployment tools streamline the process of distributing and installing software across multiple systems.
 
@@ -150,7 +150,7 @@ Example (Ansible playbook):
         - postgresql
 ```
 
-## 4. Package Managers
+## IV. Package Managers
 
 Package managers automate the process of installing, upgrading, and removing software packages. They handle dependencies and ensure system consistency.
 
@@ -180,7 +180,7 @@ choco push mypackage.1.0.0.nupkg --source "https://push.chocolatey.org/"
 choco install mypackage -y
 ```
 
-## 5. Image-Based Deployment
+## V. Image-Based Deployment
 
 Image-based deployment involves creating a preconfigured system image and deploying it to multiple machines. This method ensures consistency and reduces installation time.
 
@@ -208,6 +208,6 @@ Best Practices for Automated Installations:
 - 8. Implement a rollback strategy in case of failed installations
 - 9. Monitor the installation process and collect metrics for optimization
 
-Conclusion:
+## Conclusion:
 
 Automated installations are essential for efficient system management and software deployment. By leveraging installation scripts, answer files, deployment tools, package managers, and image-based deployment techniques, organizations can streamline their IT operations, reduce errors, and ensure consistency across their infrastructure.
