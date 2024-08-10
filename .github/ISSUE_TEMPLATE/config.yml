@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+community:
+  - name: Linux Lighthouse Community Support
+    link: https://github.com/yourusername/LinuxLightHouseMasterMDFiles/discussions
+    advice: Please ask and answer questions here.
+templates:
+  - type: Bug Report
+    detail: File a bug report
+    path: bug_report.md
+    tags: [ "bug" ]
+  - type: Feature Request
+    detail: Suggest an idea for this project
+    path: feature_request.md
+    tags: [ "enhancement" ]
