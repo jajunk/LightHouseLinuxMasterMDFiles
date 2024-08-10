@@ -1,6 +1,6 @@
-## Understanding the boot process and troubleshooting boot issues in Linux Mint can help you resolve many common problems. Here's a breakdown of the boot process and some troubleshooting steps:
+# Understanding the boot process and troubleshooting boot issues in Linux Mint can help you resolve many common problems. Here's a breakdown of the boot process and some troubleshooting steps:
 
-### Linux Mint Boot Process
+## Linux Mint Boot Process
 
 1. **BIOS/UEFI Initialization**:
    - When you power on your computer, the BIOS (Basic Input/Output System) or UEFI (Unified Extensible Firmware Interface) initializes the hardware and performs a POST (Power-On Self-Test).
@@ -60,7 +60,6 @@
 
 These steps should help you diagnose and fix common boot issues in Linux Mint. If you encounter specific errors or need further assistance, feel free to ask!
 
-Source: Conversation with Copilot, 7/19/2024
 - [(1) A Comprehensive Guide to Fixing Boot Problems in Linux Mint.](https://www.fosslinux.com/105028/the-comprehensive-guide-to-fixing-boot-problems-in-linux-mint.htm.)
 - [(2) How to Determine and Fix Boot Issues in Linux - Tecmint.](https://www.tecmint.com/find-and-fix-linux-boot-issues/.)
 - [(3) Linux Mint Troubleshooting Guide: Solutions to Common Issues.](https://www.fosslinux.com/104779/the-guide-to-troubleshooting-common-linux-mint-issues.htm.)
