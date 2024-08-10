@@ -38,8 +38,6 @@ By participating in this project, you agree to abide by our [Code of Conduct](co
 
 - Use [Markdown](LightHouseMarkDownStyleGuide.md) for documentation.
 
-## Additional Notes :notebook:
-
 ### Issue and Pull Request Labels :label:
 
 - `bug` - Something isn't working
@@ -50,5 +48,22 @@ By participating in this project, you agree to abide by our [Code of Conduct](co
 - `invalid` - Doesn't seem right
 - `question` - Further information is requested
 - `wontfix` - This won't be fixed
+
+## Branching Strategy
+- We follow the `GitFlow` branching strategy:
+
+`main` branch contains the stable, released version
+`dev` branch is for ongoing development
+`Feature` branches should be created for new content or significant changes
+
+### Use pull requests to merge changes into `develop`
+
+## Release Cycle
+
+Pull requests are merged into the `dev` branch on a weekly basis
+The `main` branch is updated with stable releases on a monthly basis
+`Hotfixes` for critical issues may be applied directly to `main` and then merged back into `dev`
+
+Contributors can expect their approved changes to appear in the `dev` branch within a week of approval, and in a stable release within 1-2 months, depending on the release schedule.
 
 ## Thank you for contributing to Linux Lighthouse! :tada::clap:
