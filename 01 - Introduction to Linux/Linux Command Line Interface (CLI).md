@@ -1,4 +1,3 @@
-
 ## 1. Introduction to the Linux CLI
    - What is the CLI?
    - Why use CLI over GUI?
@@ -77,3 +76,12 @@
     - journalctl (view system logs)
     - dmesg (display kernel messages)
     - lsof (list open files)
+
+4. **Superuser Powers**:
+   - Some tasks require administrator privileges. To execute commands as the superuser (root), prefix them with `sudo`.
+   - Be cautious with superuser access—it's powerful!
+
+
+- [(1) The Linux command line for beginners | Ubuntu.](https://ubuntu.com/tutorials/command-line-for-beginners.)
+- [(2) What is Terminal in Linux? The Ultimate Guide LinuxSimply.](https://linuxsimply.com/what-is-terminal-in-linux/.)
+- [(3) Ubuntu Terminal Beginner's Guide to Command Line Interface - FOSS Linux.](https://www.fosslinux.com/101137/the-ubuntu-terminal-getting-started-with-the-command-line-interface.htm.)

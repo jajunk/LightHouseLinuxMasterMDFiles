@@ -66,4 +66,7 @@ c) Shut down without sudo (if configured): `shutdown -h now`
 - Use delayed shutdowns to give time for important processes to complete
 - Regularly check system logs for any shutdown/restart issues
 
-This guide covers various methods and considerations for shutting down or restarting Linux systems. The exact commands and methods might vary slightly depending on your specific Linux distribution and configuration.
+- [(1) How to Reboot or Shut Down Linux Using the Command Line.)](https://www.howtogeek.com/411925/how-to-reboot-or-shut-down-linux-using-the-command-line/.)
+- [(2) How to reboot, shutdown, log off PC from Terminal by command line in](https://www.fosslinux.com/1115/how-to-reboot-shutdown-log-off-pc-from-terminal-by-command-line-in-ubuntu-and-linux-mint.htm.)
+- [(3) How do I shut down or reboot from a terminal? - Ask Ubuntu.](https://askubuntu.com/questions/187071/how-do-i-shut-down-or-reboot-from-a-terminal.)
+- [(4) 5 Linux Commands to Shutdown and Reboot the System.](https://www.binarytides.com/linux-command-shutdown-reboot-restart-system/.)

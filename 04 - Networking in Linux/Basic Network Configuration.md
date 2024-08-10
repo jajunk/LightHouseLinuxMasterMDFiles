@@ -167,4 +167,10 @@ iface bond0 inet static
     bond-primary eth0
 ```
 
-This guide covers the basics of Linux network configuration. Remember that specific commands and file locations may vary between distributions. Always consult your distribution's documentation for the most accurate information.
+
+- [(1) The Ultimate Guide to Linux Mint Network Configuration.](https://www.fosslinux.com/105545/the-ultimate-guide-to-linux-mint-network-configuration.htm.)
+- [(2) How to set up an Internet Connection in Linux Mint?.](https://unix.stackexchange.com/questions/132747/how-to-set-up-an-internet-connection-in-linux-mint.)
+- [(3) How to Share Files and Folders on a Linux Mint Network.](https://www.fosslinux.com/103443/how-to-easily-share-files-and-folders-on-a-linux-mint-network.htm.)
+- [(4) Linux Mint - Community.](https://community.linuxmint.com/tutorial/view/1966.)
+- [(5) Configure Network in Debian / Ubuntu / LinuxMint - ITzGeek.](https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/configure-network-in-ubuntu-14-04-linux-mint.html.)
+

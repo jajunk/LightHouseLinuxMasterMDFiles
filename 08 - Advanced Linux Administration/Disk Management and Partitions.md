@@ -128,4 +128,9 @@ e. Keep your system updated: Regular updates can improve disk management tools a
 
 f. Be cautious with root privileges: Disk management often requires root access, so be careful to avoid accidental data loss.
 
-This guide covers the essentials of disk management and partitions in Linux.
+
+- [(1) How to Install GParted on Linux Mint 21 - Linux Genie.](https://linuxgenie.net/how-to-install-gparted-on-linux-mint-21/.)
+- [(2) Linux Mint View & Manage System Partitions: A Comprehensive Guide.](https://bytebitebit.com/tips-tricks/linux-mint-view-manage-system-partitions/.)
+- [(3) Linux Mint View Manage System Partitions: A Comprehensive Guide.](https://www.positioniseverything.net/linux-mint-view-manage-system-partitions/.)
+- [(4) Mastering Linux Disk Management: LVM and Disk Partitioning.](https://www.linuxjournal.com/content/mastering-linux-disk-management-lvm-and-disk-partitioning.)
+- [(5) How to Use Fdisk to Manage Partitions on Linux - How-To Geek.](https://www.howtogeek.com/106873/how-to-use-fdisk-to-manage-partitions-on-linux/.)

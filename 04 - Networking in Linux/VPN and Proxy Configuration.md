@@ -156,4 +156,7 @@ dig +short myip.opendns.com @resolver1.opendns.com
 - Ensure correct permissions on configuration files
 - Check for conflicting network settings
 
-This guide covers the basics of VPN and proxy configuration in Linux. Each method has its own nuances and advanced options, so it's worth exploring the documentation for your chosen solution for more detailed information.
+- [(1) Setting Up a VPN on Linux Mint: A Step-by-Step Guide - FOSS Linux.](https://www.fosslinux.com/102356/how-to-set-up-a-vpn-on-linux-mint.htm.)
+- [(2) How to Configure OpenVPN in Linux Mint? – IPVanish.](https://support.ipvanish.com/hc/en-us/articles/360001738513-How-to-Configure-OpenVPN-in-Linux-Mint.)
+- [(3) How to configure OpenVPN on Linux Mint - FastVPN - Namecheap.](https://www.namecheap.com/support/knowledgebase/article.aspx/10416/2271/how-to-configure-openvpn-on-linux-mint/.)
+- [(4) How to Set up an OpenVPN Connection in Linux Mint - Comparitech.](https://www.comparitech.com/blog/vpn-privacy/openvpn-connection-linux-mint/.)

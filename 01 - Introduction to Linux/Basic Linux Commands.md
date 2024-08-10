@@ -1,3 +1,4 @@
+
 # Basic Linux Commands
 
 ## 1. Navigation and File Management:
@@ -174,3 +175,8 @@
 ### c) gunzip
    - Decompresses gzip files
    - Usage: gunzip [filename.gz]
+
+- [(1) The beginner’s guide to using terminal on Linux Mint - FOSS Linux.](https://www.fosslinux.com/103546/the-beginners-guide-to-using-terminal-on-linux-mint.htm.)
+- [(2) Official User Guide - Linux Mint.](https://www.linuxmint.com/documentation/user-guide/Cinnamon/english_18.0.pdf.)
+- [(3) BEGINNER'S GUIDE FOR LINUX - Start Learning Linux in Minutes - Tecmint.](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/.)
+- [(4) Useful Basic Terminal Commands On Linux Mint 11 - HowtoForge.](https://www.howtoforge.com/useful-basic-terminal-commands-on-linux-mint-11.)

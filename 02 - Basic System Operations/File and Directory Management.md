@@ -190,3 +190,8 @@ setfacl -m u:user:rwx file
 ```
 stat file_name
 ```
+
+- [(1) How to Perform File and Directory Management (Part 3) - Tecmint.](https://www.tecmint.com/file-and-directory-management-in-linux/.)
+- [(2) How to Manage Files from the Linux Terminal: 11 Commands ... - How-To Geek.](https://www.howtogeek.com/107808/how-to-manage-files-from-the-linux-terminal-11-commands-you-need-to-know/.)
+- [(3) Linux File Management Series for Beginners - Linux Shell Tips.](https://www.ubuntumint.com/linux-file-management/.)
+- [(4) Linux Commands Cheat Sheet {with Free Downloadable PDF} - phoenixNAP.](https://phoenixnap.com/kb/linux-commands-cheat-sheet.)
