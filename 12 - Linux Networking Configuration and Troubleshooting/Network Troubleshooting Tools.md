@@ -1,6 +1,6 @@
-## Linux Mint offers a variety of tools for network troubleshooting. Here are some of the most useful commands and utilities:
+# Linux Mint offers a variety of tools for network troubleshooting. 
 
-### Basic Network Troubleshooting Commands
+## Basic Network Troubleshooting Commands
 
 1. **ifconfig**:
    - Displays network interfaces and their configurations.
@@ -56,7 +56,7 @@
    sudo tcpdump -i eth0
    ```
 
-### Advanced Tools
+## Advanced Tools
 
 1. **nmap**:
    - Network exploration tool and security/port scanner.
@@ -93,11 +93,7 @@
    mtr google.com
    ```
 
-These tools should help you diagnose and troubleshoot network issues on your Linux Mint system¹²³⁴⁵. If you need more detailed instructions or have specific issues, feel free to ask!
-
-Source: Conversation with Copilot, 7/19/2024
 - [(1) 13 Linux Network Configuration and Troubleshooting Commands - Tecmint.](https://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/.)
 - [(2) The Ultimate Guide to Linux Mint Network Configuration.](https://www.fosslinux.com/105545/the-ultimate-guide-to-linux-mint-network-configuration.htm.)
-- [(3) 5 Linux network troubleshooting commands | Enable Sysadmin.](https://www.redhat.com/sysadmin/five-network-commands.)
-- [(4) The 9 Best Linux Network Troubleshooting Commands - MUO.](https://www.makeuseof.com/best-network-troubleshooting-commands-linux/.)
-- [(5) 21 Basic Linux Networking Commands You Should Know - It's FOSS.](https://itsfoss.com/basic-linux-networking-commands/.)
+- [(3) The 9 Best Linux Network Troubleshooting Commands - MUO.](https://www.makeuseof.com/best-network-troubleshooting-commands-linux/.)
+- [(4) 21 Basic Linux Networking Commands You Should Know - It's FOSS.](https://itsfoss.com/basic-linux-networking-commands/.)

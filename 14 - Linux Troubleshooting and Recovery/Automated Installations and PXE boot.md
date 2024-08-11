@@ -1,6 +1,4 @@
-Automating installations and setting up PXE (Preboot Execution Environment) boots on Linux Mint can streamline the deployment process for multiple systems. Here’s a guide to help you get started:
-
-### Automated Installations
+# Automated Installations
 
 1. **Using Preseed Files**:
    - Preseed files allow you to automate the installation process by providing answers to the installation prompts.
@@ -49,7 +47,7 @@ Automating installations and setting up PXE (Preboot Execution Environment) boot
      linux /install/vmlinuz ks=http://yourserver/ks.cfg
      ```
 
-### Setting Up PXE Boot
+## Setting Up PXE Boot
 
 1. **Install and Configure a TFTP Server**:
    - Install the TFTP server:
@@ -117,9 +115,6 @@ Automating installations and setting up PXE (Preboot Execution Environment) boot
    - Configure your client machines to boot from the network (PXE) in the BIOS/UEFI settings.
    - The client machines should now boot from the PXE server and start the automated installation process.
 
-These steps should help you set up automated installations and PXE boots on Linux Mint¹²³⁴. If you have any specific questions or need further assistance, feel free to ask!
-
-Source: Conversation with Copilot, 7/19/2024
 - [(1) How To: Boot Linux Mint 19.3 Over Network PXE Using SERVA ... - Ares Galaxy.]( https://www.aresgalaxy.org/system-administration/how-to/boot-linux-mint-19-3-over-network-pxe-using-serva-on-windows-7-8-10.)
 - [(2) Setup PXE Boot Server using cloud-init for Ubuntu 20.04 ... - GoLinuxCloud.](https://www.golinuxcloud.com/pxe-boot-server-cloud-init-ubuntu-20-04/.)
 - [(3) Setting up a 'PXE Network Boot Server' for Multiple Linux ... - Tecmint.](https://www.tecmint.com/install-pxe-network-boot-server-in-centos-7/.)

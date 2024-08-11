@@ -1,6 +1,5 @@
-## Configuring VPNs and tunnels on Linux Mint can enhance your privacy and security. Here’s a step-by-step guide to help you set up a VPN and create tunnels:
-
-### Setting Up a VPN
+# Configuring VPNs and tunnels on Linux Mint can enhance your privacy and security
+## Setting Up a VPN
 
 1. **Install OpenVPN and Network Manager Plugin**:
    - Open a terminal and run:
@@ -20,7 +19,7 @@
 4. **Connect to the VPN**:
    - Once configured, you can connect to the VPN from the Network Manager menu.
 
-### Creating Tunnels
+## Creating Tunnels
 
 1. **SSH Tunneling**:
    - SSH tunneling can be used to securely forward traffic from one machine to another.
@@ -58,12 +57,8 @@
 
 For more detailed instructions, you can refer to guides like [FOSS Linux](https://www.fosslinux.com/102356/how-to-set-up-a-vpn-on-linux-mint.htm)¹ and [Comparitech](https://www.comparitech.com/blog/vpn-privacy/openvpn-connection-linux-mint/)².
 
-If you have any specific questions or need further assistance, feel free to ask!
-
-Source: Conversation with Copilot, 7/19/2024
 - [(1) Setting Up a VPN on Linux Mint: A Step-by-Step Guide - FOSS Linux.](https://www.fosslinux.com/102356/how-to-set-up-a-vpn-on-linux-mint.htm.)
 - [(2) How to Set up an OpenVPN Connection in Linux Mint - Comparitech.](https://www.comparitech.com/blog/vpn-privacy/openvpn-connection-linux-mint/.)
 - [(3) How to Setup OpenVPN on Mint Linux | FastestVPN Support.](https://support.fastestvpn.com/tutorials/linux/mint/openvpn/.)
-- [(4) OpenVPN Setup: Linux Mint (via Network Manager) – StrongVPN.](https://support.strongvpn.com/hc/en-us/articles/1260801506689-OpenVPN-Setup-Linux-Mint-via-Network-Manager.)
-- [(5) How to manually configure OpenVPN for Proton VPN in Linux.](https://protonvpn.com/support/linux-openvpn/.)
-- [(6) en.wikipedia.org.](https://en.wikipedia.org/wiki/Linux_Mint.)
+- [(4) How to manually configure OpenVPN for Proton VPN in Linux.](https://protonvpn.com/support/linux-openvpn/.)
+- [(5) en.wikipedia.org.](https://en.wikipedia.org/wiki/Linux_Mint.)

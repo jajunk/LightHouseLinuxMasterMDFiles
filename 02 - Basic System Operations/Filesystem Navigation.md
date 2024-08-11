@@ -1,4 +1,4 @@
-#
+# FileSystem Navigation
 
 1. **Print Working Directory (pwd):** Use `pwd` to display your current location in the filesystem. It shows the absolute path from the root directory (e.g., `/home/user`). Absolute paths are crucial for scripts.
 
@@ -8,4 +8,4 @@
     - To return home from any location, use `cd ~`.
 
 
-- [10 Linux commands for navigating the file system - FOSS Linux.](https://www.fosslinux.com/136854/10-linux-commands-for-navigating-the-file-system.htm.)
+- [(1) Linux commands for navigating the file system - FOSS Linux.](https://www.fosslinux.com/136854/10-linux-commands-for-navigating-the-file-system.htm.)

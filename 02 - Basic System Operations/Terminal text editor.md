@@ -1,4 +1,4 @@
-#
+# Linux Terminal Text Editor
 
 1. **Opening and Creating Files**:
    - To open an existing file or create a new one, type:

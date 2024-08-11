@@ -1,6 +1,6 @@
-## Let's discuss **NTFS (New Technology File System)** and how to work with it in **Linux Mint**.
+# Network File Systems
 
-1. **Mounting NTFS Partitions**:
+## 1. **Mounting NTFS Partitions**:
    - NTFS is the default file system for Windows systems, but we can also mount NTFS partitions in Linux to read and write data.
    - To mount an NTFS partition, follow these steps:
      - First, create a mount point using the `mkdir` command:
@@ -17,7 +17,7 @@
        ```
      - Now you have read/write permissions for the NTFS partition you mounted¹².
 
-2. **Changing File Permissions on NTFS Partitions**:
+## 2. **Changing File Permissions on NTFS Partitions**:
    - To apply Linux-compatible file permissions to an NTFS drive, modify the `/etc/fstab` file.
    - Add the following line to `/etc/fstab`:
      ```
@@ -26,9 +26,7 @@
      This line specifies that the `/dev/sdb` partition should be mounted as NTFS in the `/mnt/ntfs` directory.
    - Remount the partition or reboot for the changes to take effect².
 
-Feel free to explore further or ask if you need additional assistance! 😊🚀
 
-Source: Conversation with Copilot, 7/12/2024
 - [(1) How to Mount NTFS Partition in Linux - phoenixNAP.](https://phoenixnap.com/kb/mount-ntfs-linux.)
 - [(2) Changing File Permissions on NTFS Partitions in Linux.](https://linuxconfig.org/changing-file-permissions-on-ntfs-partitions-in-linux.)
 - [(3) How to Mount and Access Windows NTFS Drives in Linux - MUO.](https://www.makeuseof.com/mount-ntfs-windows-drives-in-linux/.)

@@ -1,6 +1,6 @@
-## Configuring DHCP, DNS, and NAT on Linux Mint involves several steps. Here's a guide to help you set up each component:
+# Configuring DHCP, DNS, and NAT on Linux Mint
 
-### Configuring DHCP
+## Configuring DHCP
 
 1. **Install DHCP Server**:
    ```bash
@@ -29,7 +29,7 @@
    sudo systemctl enable isc-dhcp-server
    ```
 
-### Configuring DNS
+## Configuring DNS
 
 1. **Install DNS Server (BIND9)**:
    ```bash
@@ -94,7 +94,7 @@
    sudo systemctl restart bind9
    ```
 
-### Configuring NAT
+## Configuring NAT
 
 1. **Enable IP Forwarding**:
    - Edit the sysctl configuration:
@@ -120,9 +120,7 @@
      sudo sh -c "iptables-save > /etc/iptables/rules.v4"
      ```
 
-These steps should help you set up DHCP, DNS, and NAT on your Linux Mint system¹²³⁴⁵. If you encounter any issues or need further assistance, feel free to ask!
 
-Source: Conversation with Copilot, 7/19/2024
 - [(1) The Ultimate Guide to Linux Mint Network Configuration.](https://www.fosslinux.com/105545/the-ultimate-guide-to-linux-mint-network-configuration.htm.)
 - [(2) What is DHCP and how to configure DHCP server in Linux.](https://linuxconfig.org/what-is-dhcp-and-how-to-configure-dhcp-server-in-linux.)
 - [(3) Linux DNS and DHCP Server – The Linux Experiment.](https://thelinuxexperiment.com/linux-dns-and-dhcp-server/.)

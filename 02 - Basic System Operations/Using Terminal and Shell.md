@@ -1,4 +1,4 @@
-# 
+# Using the Terminal
 
 1. **Opening the Terminal**:
    - You can open the terminal in various ways:
@@ -23,8 +23,5 @@
    - Be cautious with superuser access—it's powerful!
 
 - [(1) Beginner's Guide To The Linux Terminal.](https://www.youtube.com/watch?v=s3ii48qYBxA.)
-- [(2) Linux Terminal Introduction.](https://www.youtube.com/watch?v=SkB-eRCzWIU.)
-- [(3) Linux Terminal Basics | Navigate the File System on Ubuntu.](https://www.youtube.com/watch?v=jgcXclSXnVo.)
-- [(4) The Linux command line for beginners | Ubuntu.](https://ubuntu.com/tutorials/command-line-for-beginners.)
-- [(5) What is Terminal in Linux? [The Ultimate Guide] - LinuxSimply.](https://linuxsimply.com/what-is-terminal-in-linux/.)
+- [(2) What is Terminal in Linux? [The Ultimate Guide] - LinuxSimply.](https://linuxsimply.com/what-is-terminal-in-linux/.)
  
