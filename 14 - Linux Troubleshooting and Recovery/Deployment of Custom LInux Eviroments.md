@@ -64,9 +64,6 @@
 
 For more detailed instructions, you can refer to guides like [It's FOSS](https://itsfoss.com/create-custom-linux-mint-iso/)¹ and [Byte Bite Bit](https://bytebitebit.com/operating-system/linux/how-to-make-a-linux-distro/)².
 
-If you have any specific requirements or need further assistance, feel free to ask!
-
-Source: Conversation with Copilot, 7/19/2024
 - [(1) How to Create Custom Linux Mint or Ubuntu ISO - It's FOSS.](https://itsfoss.com/create-custom-linux-mint-iso/.)
 - [(2) How to Make a Linux Distro: A Step-by-Step Guide for Developers.](https://bytebitebit.com/operating-system/linux/how-to-make-a-linux-distro/.)
 - [(3) Linux Mint - Community.](https://community.linuxmint.com/tutorial/view/1784.)
