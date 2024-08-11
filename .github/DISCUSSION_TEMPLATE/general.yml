@@ -1,0 +1,45 @@
+# This is a basic template for creating a discussion template on GitHub
+# Save this file as .github/DISCUSSION_TEMPLATE/general.yml in your repository
+
+title: "[Discussion Topic]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for starting a new discussion! Please fill out the information below to help structure the conversation.
+  - type: input
+    id: topic
+    attributes:
+      label: Discussion Topic
+      description: What is the main topic of this discussion?
+      placeholder: e.g., New feature proposal, Community feedback, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a detailed description of the topic you want to discuss.
+      placeholder: Explain your ideas, concerns, or questions in detail here.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Discussion Category
+      description: What category does this discussion fall under?
+      options:
+        - General
+        - Ideas
+        - Q&A
+        - Show and tell
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this discussion, you agree to follow our community guidelines.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
