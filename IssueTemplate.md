@@ -54,6 +54,9 @@ revert:: Reverts a previous commit.
 
 [Describe the impact this issue has on your project or workflow]
 
+## Acceptance Criteria 
+[Describe what done looks like]
+
 ## Workaround
 
 [If there is a known workaround for this issue, describe it here]
